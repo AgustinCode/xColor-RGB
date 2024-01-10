@@ -14,7 +14,7 @@ def image_to_tkimage():
 
 def copy_rgb(rgb):
     pyperclip.copy(str(rgb))
-    print("Se ha copiado:","RGB: "+str(rgb))
+    print("You copied:","RGB: "+str(rgb))
     
     
 def get_rgb_click(event):
